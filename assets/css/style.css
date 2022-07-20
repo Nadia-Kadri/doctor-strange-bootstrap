@@ -27,17 +27,14 @@ body {
 
 .opponent {
   position: relative;
-  padding: 0;
 }
 
 .opponent a {
   text-decoration: none;
   color: white;
   display: block;
-  width: 100%;
   position: absolute;
-  text-align: center;
-  bottom: 15px;
+  bottom: 0;
   padding: 2px;
   opacity: 0.75;
   background-color: black;
