@@ -20,3 +20,29 @@ body {
 .footer {
   font-size: 0.75em;
 }
+
+#contact-button {
+  background-color: #ff9934;
+}
+
+.opponent {
+  position: relative;
+  padding: 0;
+}
+
+.opponent a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  bottom: 15px;
+  padding: 2px;
+  opacity: 0.75;
+  background-color: black;
+}
+
+.opponent a:hover {
+  color: #ff9934;
+}
